@@ -7,7 +7,7 @@
  */
 
 // Input Data
-var restName = prompt ("Which restaurant did you visit tonight?");
+var restName = prompt("Which restaurant did you visit tonight?");
 var waitName = prompt("What is your waiter's name?");
 var srvAmount = prompt("Please enter the total amount of your dinner.");
 
