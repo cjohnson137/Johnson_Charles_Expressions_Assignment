@@ -6,8 +6,10 @@
  * February 12, 2015
  */
 
+var restName = prompt ("Which restaurant did you visit tonight?")
 var waitName = prompt("What is your waiter's name?");
 var srvAmount = prompt("Please enter the total amount of your dinner.");
+
 // var srvAmount = srvAmountPrompt;
 // var quality = prompt("Was the service poor, good, or excellent")
 var tipPercentage = [.05, .15, .2];
@@ -22,7 +24,7 @@ var goodBill = parseInt(srvAmount) + parseInt(goodTip);
 var excelBill = parseInt(srvAmount) + parseInt(excelTip);
 
 
-
+console.log("Make sure that you call me the next time you go to " + restName);
 console.log("The amount on your receipt was $" + srvAmount);
 console.log(waitName + " should get a tip either of the following tips. ");
 console.log("Poor Service Tip (5%): $" + poorTip + " / Good Service Tip (15%): $" + goodTip + " / Excellent Tip (20%): $" + excelTip);
