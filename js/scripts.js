@@ -23,8 +23,9 @@ var excelBill = parseInt(srvAmount) + parseInt(excelTip);
 
 
 
+console.log("The amount on your receipt was $" + srvAmount);
 console.log(waitName + " should get a tip either of the following tips. ");
-console.log("Poor Service Tip (5%): $" + poorTip + " / Good Service Tip (15%): $" + goodTip + " / Excellent Tip (20%): $" + excelTip /n);
+console.log("Poor Service Tip (5%): $" + poorTip + " / Good Service Tip (15%): $" + goodTip + " / Excellent Tip (20%): $" + excelTip);
 // console.log(totalBill);
 
  console.log("If " + waitName + " provided poor service, you would pay a total of $" + poorBill);
