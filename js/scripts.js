@@ -19,6 +19,7 @@ var totalBill1 = srvAmount + fivePercent;
 
 console.log(waitName + " should get a tip either of the following tips. ");
 console.log("Poor Service (5%): $" + tipPercentage[0] + " / Good Service (15%): $" + tipPercentage[1] + " / Excellent (20%): $" + tipPercentage[2]);
-console.log("If " + waitName + " provided poor service pay $" + totalBill1);
-console.log("If " + waitName + " provided good service pay $" + totalBill[1]);
-console.log("If " + waitName + " provided excellent service pay $" + totalBill[2]);
+
+// console.log("If " + waitName + " provided poor service pay $" + totalBill1);
+// console.log("If " + waitName + " provided good service pay $" + totalBill[1]);
+// console.log("If " + waitName + " provided excellent service pay $" + totalBill[2]);
