@@ -7,11 +7,11 @@
  */
 
 var waitName = prompt("What is your waiter's name?");
-var srvAmount = prompt("Please Enter Receipt Amount:");
+var srvAmount = prompt("Please enter the total amount of your dinner.");
 // var srvAmount = srvAmountPrompt;
 // var quality = prompt("Was the service poor, good, or excellent")
 var tipPercentage = [.05, .15, .2];
-var poorTip = srvAmount * tipPercentage[0]+ parseInt(srvAmount) ;
+var poorTip = srvAmount * tipPercentage[0];
 var goodTip = srvAmount * tipPercentage[1];
 var excelTip = srvAmount * tipPercentage[2];
 
@@ -24,9 +24,9 @@ var excelBill = parseInt(srvAmount) + parseInt(excelTip);
 
 
 console.log(waitName + " should get a tip either of the following tips. ");
-console.log("Poor Service (5%): $" + poorTip + " / Good Service (15%): $" + goodTip + " / Excellent (20%): $" + excelTip);
+console.log("Poor Service Tip (5%): $" + poorTip + " / Good Service Tip (15%): $" + goodTip + " / Excellent Tip (20%): $" + excelTip /n);
 // console.log(totalBill);
 
-// console.log("If " + waitName + " provided poor service pay $" + totalBill1);
-// console.log("If " + waitName + " provided good service pay $" + totalBill[1]);
-// console.log("If " + waitName + " provided excellent service pay $" + totalBill[2]);
+ console.log("If " + waitName + " provided poor service, you would pay a total of $" + poorBill);
+ console.log("If " + waitName + " provided good service, you would pay a total of  $" + goodBill);
+ console.log("If " + waitName + " provided excellent service, you would pay a total of $" + excelBill);
